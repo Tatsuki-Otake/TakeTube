@@ -61,3 +61,10 @@ This is a youtube clone built with Next.js, Clerk, Drizzle, and Neon.
   - end-to-end typesafety
   - familiar hooks (useQuery, useMutation etc.)
   - v11 allows us to do authenticated prefetching
+- Why no X?
+  - not possible to prefetch authenticated queries
+- Why prefetch?
+  - "render as you fetch" concept
+  - leverage RSCs as "loaders"
+  - faster load time
+  - parallel data loading
