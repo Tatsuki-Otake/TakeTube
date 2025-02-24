@@ -55,3 +55,9 @@ This is a youtube clone built with Next.js, Clerk, Drizzle, and Neon.
 - Add script to concurrently run local tunnel & app
 - Create the users webhook
 - Connect the webhook on Clerk dashboard
+
+## 06 tRPC setup
+- Why tRPC?
+  - end-to-end typesafety
+  - familiar hooks (useQuery, useMutation etc.)
+  - v11 allows us to do authenticated prefetching
