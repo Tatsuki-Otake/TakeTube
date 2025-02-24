@@ -49,9 +49,9 @@ This is a youtube clone built with Next.js, Clerk, Drizzle, and Neon.
   - Serverless by default
   - Forcing us to "understand" our queries
 
-  ## 05 Webhook sync
-  - Create ngrok account (or any other local tunnel solution)
-  - Obtain a static domain (not required, but easier development)
-  - Add script to concurrently run local tunnel & app
-  - Create the users webhook
-  - Connect the webhook on Clerk dashboard
+## 05 Webhook sync
+- Create ngrok account (or any other local tunnel solution)
+- Obtain a static domain (not required, but easier development)
+- Add script to concurrently run local tunnel & app
+- Create the users webhook
+- Connect the webhook on Clerk dashboard
